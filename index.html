@@ -3,80 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page Kursus Salon</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Font Awesome CSS CDN -->
-    <style>
-        /* Add custom CSS styles here */
-    </style>
+    <!-- Mengimpor Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Salon Gloria</title>
 </head>
 <body>
-
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Salon Gloria</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Beranda</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kursus</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tentang Kami</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Hubungi Kami</a>
-            </li>
-        </ul>
-    </div>
-</nav>
- 
-<div class="container mt-5 bg-dark text-white text-center py-4">
-    <h1>Selamat Datang di Salon KAMI</h1>
-    <p>Menjadi seorang profesional salon handal dengan keterampilan yang lengkap.</p>
-
-    <h2>Apa yang Akan Anda Pelajari?</h2>
-    <ul>
-        <li>Mencuci Rambut yang Benar</li>
-        <li>Creambath dan Hair Spa</li>
-        <li>Memangkas dan Mengkriting Rambut</li>
-        <li>Meluruskan dan Mewarnai Rambut</li>
-        <li>Perawatan Kulit Kepala</li>
-        <li>Facial Wajah</li>
-        <li>Teknik Sasak Rambut</li>
-        <li>Penataan Sanggul</li>
-        <li>Make Up Dasar, Wisuda, dan Pengantin</li>
-        <li>Teori Kewirausahaan</li>
-        <li>Pengembangan Diri</li>
-    </ul>
-
-    <h2>Keuntungan:</h2>
-    <ul>
-        <li>Keterampilan profesional dari pengajar berpengalaman</li>
-        <li>Sertifikat yang dapat meningkatkan peluang kerja Anda</li>
-        <li>Peluang berkarier di industri kecantikan yang berkembang pesat</li>
-    </ul>
-
-    <h2>Daftar Sekarang!</h2>
-    <p>Mulailah perjalanan Anda menuju kesuksesan dalam industri kecantikan. Hanya dengan Rp 5 juta, Anda akan mendapatkan pelatihan komprehensif dan sertifikat yang mengesankan.</p>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Salon Gloria</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Kursus</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Tentang Kami</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Hubungi Kami</a></li>
+            </ul>
+        </nav>
+    </header>
     
-    <!-- Tombol Call to Action (WhatsApp) -->
-    <a href="https://wa.me/62899661974219" class="btn btn-success btn-lg">Hubungi Kami di WhatsApp</a>
+    <section class="container mt-5">
+        <h2 class="text-center">Selamat Datang di Salon Kami</h2>
+        <p>Menjadi seorang profesional salon handal dengan keterampilan yang lengkap.</p>
+        
+        <h3>Apa yang Akan Anda Pelajari?</h3>
+        <ul>
+            <li>Mencuci Rambut yang Benar</li>
+            <li>Creambath dan Hair Spa</li>
+            <li>Memangkas dan Mengkriting Rambut</li>
+            <li>Meluruskan dan Mewarnai Rambut</li>
+            <li>Perawatan Kulit Kepala</li>
+            <li>Facial Wajah</li>
+            <li>Teknik Sasak Rambut</li>
+            <li>Penataan Sanggul</li>
+            <li>Make Up Dasar, Wisuda, dan Pengantin</li>
+            <li>Teori Kewirausahaan</li>
+            <li>Pengembangan Diri</li>
+        </ul>
 
-</div>
+        <h3>Keuntungan:</h3>
+        <ul>
+            <li>Keterampilan profesional dari pengajar berpengalaman</li>
+            <li>Sertifikat yang dapat meningkatkan peluang kerja Anda</li>
+            <li>Peluang berkarier di industri kecantikan yang berkembang pesat</li>
+        </ul>
 
-<!-- Bootstrap JS, Popper.js, and jQuery CDN -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <p>Daftar Sekarang!</p>
+        <p>Hanya dengan Rp 5 juta, Anda akan mendapatkan pelatihan komprehensif dan sertifikat yang mengesankan.</p>
+    </section>
+
+    <section class="container mt-5 text-center">
+        <h2>Hubungi Kami</h2>
+        <p>Jika Anda memerlukan layanan pertanyaan, jangan ragu untuk menghubungi kami.</p>
+        <a class="btn btn-primary" href="https://example.com/hubungi-kami">Hubungi Kami</a>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Salon Gloria</p>
+    </footer>
+
+    <!-- Mengimpor Bootstrap JS dan jQuery (untuk beberapa fitur Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
- 
